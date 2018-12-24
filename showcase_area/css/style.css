@@ -1,0 +1,45 @@
+body {
+    background: rgba(17, 17, 17, 0.849);
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #007bff solid 4px;
+}
+
+.main-section {
+    background: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.main-content {
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.main-content .fas {
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #007bff;
+}
+
+.trending-section .card {
+    border-radius: 5px;
+    border: #fff solid 2px;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: white;
+}
