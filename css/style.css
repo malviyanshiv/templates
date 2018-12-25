@@ -1,3 +1,28 @@
 body {
     background: #e9ecef;
 }
+
+#main-section {}
+
+@media( max-width:768px) {
+    #forktag {
+        display: none;
+    }
+    #main-section h1 {
+        font-size: 8vw;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    #main-section p {
+        font-size: 7vw;
+    }
+    .footer-section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media( max-width: 579px) {
+    body {
+        padding: 0px 10px;
+    }
+}

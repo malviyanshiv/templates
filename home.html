@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- Fork on github -->
-    <a href="https://github.com/malviyanshiv/templates"
+    <a id="forktag" href="https://github.com/malviyanshiv/templates"
       ><img
         style="position: absolute; top: 0; left: 0; border: 0;"
         src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"
@@ -29,68 +29,74 @@
     /></a>
     <div class="jumbotron jumbotron-fluid" id="main-section">
       <div class="container text-center">
-        <h1 class="display-1">^_^ <strong>Templates </strong>^_^</h1>
+        <h1 class="display-3">^_^&nbsp;<strong>Templates</strong>&nbsp;^_^</h1>
         <p class="lead display-4 d-block my-5">Collection of my templates</p>
       </div>
     </div>
 
     <!-- Different Templates Area -->
-    <div class="container">
-      <div class="card-deck">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="./img/showcase_area.png"
-            alt="Showcase Area"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Showcase AREA</h5>
-            <p class="card-text">
-              A single page theme for presenting something brief. It contains a
-              sign up form, explore section, trending section and contact
-              section.
-            </p>
+    <div class="container template-area">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./img/showcase_area.png"
+              alt="Showcase Area"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Showcase AREA</h5>
+              <p class="card-text">
+                A single page theme for presenting something brief. It contains
+                a sign up form, explore section, trending section and contact
+                section.
+              </p>
+            </div>
+            <div class="card-footer text-center">
+              <a
+                href="./showcase_area/index.html"
+                class="btn btn-primary"
+                target="_blank"
+                >Explore it!</a
+              >
+            </div>
           </div>
-          <div class="card-footer text-center">
-            <a
-              href="./showcase_area/index.html"
-              class="btn btn-primary"
-              target="_blank"
-              >Explore it!</a
-            >
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./img/comingsoon.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">
+                Template for portfolio will be comming soon.
+              </p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="" class="btn btn-primary disabled">Explore it!</a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="./img/comingsoon.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Portfolio</h5>
-            <p class="card-text">
-              Template for portfolio will be comming soon.
-            </p>
-          </div>
-          <div class="card-footer text-center">
-            <a href="" class="btn btn-primary disabled">Explore it!</a>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="./img/plus.png" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Add your own</h5>
-            <p class="card-text">
-              Help the other developers by creating and adding your own
-              templates.
-            </p>
-          </div>
-          <div class="card-footer text-center">
-            <a
-              href="https://github.com/malviyanshiv/templates"
-              class="btn btn-primary"
-              >Explore it!</a
-            >
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./img/plus.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Add your own</h5>
+              <p class="card-text">
+                Help the other developers by creating and adding your own
+                templates.
+              </p>
+            </div>
+            <div class="card-footer text-center">
+              <a
+                href="https://github.com/malviyanshiv/templates"
+                class="btn btn-primary"
+                >Explore it!</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -125,13 +131,14 @@
     $(".footer-section a").on("click", function(e) {
       if (this.hash !== "") {
         e.preventDefault();
+        const a = this.hash;
         $("html, body").animate(
           {
-            scrollTop: $(this.hash).offset().top
+            scrollTop: $(a).offset().top
           },
           900,
           function() {
-            window.location.hash = this.hash;
+            window.location.hash = a;
           }
         );
       }
