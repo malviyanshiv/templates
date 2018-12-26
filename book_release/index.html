@@ -12,9 +12,401 @@
     />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Sample</title>
+    <title>Introduction to Algorithm</title>
   </head>
   <body>
+    <!-- Nav Area -->
+    <nav
+      class="navbar navbar-expand-md py-3 navbar-light fixed-top"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="./img/mlogo.png" alt="Logo" width="50" height="50" />
+          <h3 class="d-inline align-middle px-2">CLRS</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#main-nav-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="main-nav-content" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#main-section" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#what-it-have" class="nav-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#meet-author-section" class="nav-link">Meet the Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial-section" class="nav-link">Testimonial</a>
+            </li>
+            <li class="nav-item"><a href="#report-section" class="nav-link">Report Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="main-section">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-white">
+              <h3 class="display-4 mt-4 pt-4">
+                An Internationally acclaimed textbook
+              </h3>
+              <p class="double-lead">
+                providing a comprehensive introduction to the modern study of
+                computer algorithms covering a broad range of algorithms in
+                depth, yet makes their design and analysis accessible to all
+                levels of readers.
+              </p>
+              <div class="text-center mt-5">
+                <a href="#" class="btn btn-outline-light">Read More</a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center d-none d-lg-block">
+              <img
+                src="./img/clrs_book.jpg"
+                alt=""
+                class="img-fluid py-3"
+                style="max-width: 80%;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="suscribe" class="bg-dark p-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="form-group">
+              <input
+                type="text"
+                name="Name"
+                id=""
+                placeholder="Name"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Email"
+                class="form-control"
+              />
+            </div>
+          </div>
+          <div class="col-md">
+            <button class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What is have -->
+    <section id="what-it-have">
+      <div class="container text-center">
+        <div class="row pt-4 w-75 m-auto">
+          <div class="col">
+            <h3 id="info-text">What you can explore</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <div class="row mt-3 p-2">
+          <div class="col-lg"></div>
+          <div class="card-deck m-auto">
+            <div class="card border border-primary">
+              <div class="card-body">
+                <h3>Excercises</h3>
+                <p class="lead">Contains all kind of excercises, from coding to proving techniques. Take you a step ahead to tackle the real life problems.</p>
+              </div>
+            </div>
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <h3>Sudo Code</h3>
+                <p class="lead">Instead of making language specific, we have covered all the codes in sudo code with resemblence with the many common programming languages for easy implementation.</p>
+              </div>
+            </div>
+            <div class="card border border-primary">
+              <div class="card-body">
+                <h3>Examples</h3>
+                <p class="lead"> It brings your attention to the beauty of the way concept are implemented in real life problems.</p>
+              </div>
+            </div>
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <h3>Community Help!</h3>
+                <p class="lead">It contains a large community support with many github reprositories containing the code and solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Meet the author Section -->
+    <section id="meet-author-section" class="my-4">
+      <div class="container text-center">
+        <div class="row pt-5 pb-3 w-75 m-auto border-bottom border-primary">
+          <div class="col"><h3 id="info-text">Meet the Authors</h3></div>
+        </div>
+        <div class="row py-5 mt-4">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/cormen.png"
+                alt=""
+                class="card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <p class="double-lead py-3 font-weight-bold">
+                  Thomas H. Cormen
+                </p>
+                <p>
+                  professor of computer science at Dartmouth College and former
+                  Chairman of the Dartmouth College Department of Computer
+                  Science
+                </p>
+                <div id="logo" class="row d-flex my-3 pb-3 text-white">
+                  <div class="col">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/charles.png"
+                alt=""
+                class="card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <p class="double-lead py-3 font-weight-bold">
+                  Charles E. Leiserson
+                </p>
+                <p>
+                  a computer scientist, specializing in the theory of parallel
+                  computing and distributed computing, and particularly
+                  practical applications thereof
+                </p>
+                <div id="logo" class="row d-flex my-3 pb-3 text-white">
+                  <div class="col">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/ronald.jpg"
+                alt=""
+                class="card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <p class="double-lead py-3 font-weight-bold">
+                  Ronald L. Rivest<br /><br />
+                </p>
+                <p>
+                  a cryptographer and an Institute Professor at MIT. He is a
+                  member of MIT's Department of Electrical Engineering and
+                  Computer Science (EECS) and a member
+                </p>
+                <div id="logo" class="row d-flex my-3 pb-3 text-white">
+                  <div class="col">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./img/cliffered.jpg"
+                alt=""
+                class="card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <p class="double-lead py-3 font-weight-bold">
+                  Clifford Stein<br /><br />
+                </p>
+                <p>
+                  a computer scientist, specializing in the theory of parallel
+                  computing and distributed computing, and particularly
+                  practical applications thereof
+                </p>
+                <div id="logo" class="row d-flex py-3 text-white">
+                  <div class="col">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </div>
+                  <div class="col">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial-section" class="bg-primary text-white">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h3 class="display-2 my-4">
+              Testimonials
+            </h3>
+            <p class="double-lead">Read what other think about us</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div id="testimonial-c" class="carousel slide mt-5" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#testimonial-c" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonial-c" data-slide-to="1"></li>
+                <li data-target="#testimonial-c" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row my-4 p-4">
+                    <div class="offset-md-2 col-md-8">
+                      <blockquote class="blockquote p-4">An essential book, one of those that definitely deserves to be on the shelf of every programmer. Very well structured, easy to read, with nice pseudocode and great exercises.
+                        <footer class="blockquote-footer text-right font-italic text-white">- London Times</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row my-4 p-4">
+                    <div class="offset-md-2 col-md-8">
+                      <blockquote class="blockquote p-4">An essential, well-written reference, and one it's quite possible to read through several times, picking up new info
+                      each time. That having been said....this book never, I felt, adequately communicated THE LOVE.
+                        <footer class="blockquote-footer text-right font-italic text-white">- New York Times</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row my-4 p-4">
+                    <div class="offset-md-2 col-md-8">
+                      <blockquote class="blockquote p-4">A very helpful book as it starts from the basics. More importantly, its great fun reading it and the problems are
+                      challenging and lead you on to think in depth..
+                        <footer class="blockquote-footer text-right font-italic text-white">- Guardian</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#testimonial-c" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#testimonial-c" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Report Section -->
+    <section id="report-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h3 class="display-2 py-5 text-primary">Report errors and corrections</h3>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-9">
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <input type="text" name="name" id="" class="form-control" placeholder="Name">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                </div>
+                <input type="email" name="name" id="" class="form-control" placeholder="Email">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                </div>
+                <textarea name="message" id="" class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn btn-primary btn-block">
+            </form>
+          </div>
+          <div class="col-lg-3 d-none d-lg-block">
+            <img src="./img/mlogo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Area -->
+    <section class="footer-section bg-primary text-white">
+      <div class="container">
+        <div class="row">
+          <p class="lead p-4 d-inline-block m-auto">Copyright &copy; <span id="year"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Move to top -->
+    <div id="move-to-top" class="text-center">
+      <i class="fas fa-arrow-up"></i>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -32,6 +424,29 @@
     ></script>
     <script>
       $("#year").text(new Date().getFullYear());
+
+      //$("body").scrollspy({ target: "#main-nav" });
+
+        $("#main-nav a").on("click", function (e) {
+          if (this.hash !== "") {
+            e.preventDefault();
+            $("html, body").animate(
+              {
+                scrollTop: $(this.hash).offset().top - 95
+              },
+              900,
+              function () {
+                window.location.hash = this.hash;
+              }
+            );
+          }
+        });
+
+      $("#move-to-top").on("click", function(e){
+        $("html, body").animate({
+          scrollTop: 0
+        }, 900);
+      });
     </script>
   </body>
 </html>

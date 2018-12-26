@@ -1,0 +1,82 @@
+body {
+  padding-top: 95px; }
+
+#main-nav {
+  box-shadow: 2px 2px 4px #3292a6;
+  background: white; }
+  #main-nav .nav-item {
+    font-size: 1.2rem;
+    padding: 0.6rem; }
+
+#main-section {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  background-position: center;
+  min-height: 600px; }
+  #main-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 151, 202, 0.6); }
+
+#info-text {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #3292a6; }
+
+#meet-author-section .card img {
+  width: 50%;
+  margin: auto;
+  margin-top: -15%; }
+#meet-author-section .card:hover {
+  background: #3292a6;
+  color: white;
+  cursor: pointer; }
+#meet-author-section .card {
+  max-height: 460px; }
+
+.double-lead {
+  font-size: 1.5rem;
+  font-weight: 300; }
+
+#move-to-top {
+  height: 50px;
+  width: 50px;
+  background: #3292a6;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
+  cursor: pointer; }
+
+@media (max-width: 440px) {
+  #main-section h3 {
+    font-size: 2.8rem; }
+  #main-section p {
+    font-size: 1.5rem; }
+
+  #report-section h3,
+  #testimonial-section h3 {
+    font-size: 3rem; }
+
+  #meet-author-section .card:hover {
+    background: white;
+    color: black;
+    cursor: auto; }
+
+  #logo {
+    color: black !important; }
+
+  #what-it-have .card {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 15px; }
+
+  #move-to-top {
+    right: 5px;
+    bottom: 5px; } }
